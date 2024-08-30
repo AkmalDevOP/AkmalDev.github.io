@@ -1,0 +1,76 @@
+*, html, body {
+  user-select: none;
+  overflow: hidden, -moz-hidden-unscrollable;
+  margin: 0;
+}
+
+#title {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  display: inline-block;
+  font-size: 80px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#searchBAR {
+  border: 0px;
+  outline: none;
+  font-size: 20px;
+  max-width: 100%;
+}
+
+#box {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#search {
+  border-radius: 10px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  outline: none;
+}
+
+#searchBAR :focus {
+  outline: none;
+}
+
+#SR > h1 {
+  overflow: hidden;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+#SEARCH {
+  display: block;
+}
+
+html, body, div, iframe { 
+  margin: 0px; 
+  padding: 0px; 
+  height: 100%; 
+  border: none; 
+} 
+
+iframe { 
+  display: block; 
+  width: 100%; 
+  border: none; 
+  overflow-y: hidden; 
+  overflow-x: hidden; 
+} 
